@@ -26,6 +26,7 @@ fetchData()
 const menuItems = [
   {
     img: '/assets/pasta.png', //per chatgpt, vite handles assets in public directory differently from those in src. Static assets in the public directory are directly available from root
+    //Want to do it this way ^ so that when building for production you won't have issues with not being able to find the images
     name: 'Pasta',
     description:
       'Indulge in our classic Spaghetti Carbonara, a timeless Italian favorite. Al dente spaghetti is perfectly tossed with a rich and creamy sauce made from farm-fresh eggs, grated Pecorino Romano cheese, and crispy pancetta. A touch of freshly ground black pepper and a sprinkle of parsley add the finishing touches to this comforting and flavorful dish.',
