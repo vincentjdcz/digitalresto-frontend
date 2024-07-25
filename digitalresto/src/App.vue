@@ -25,28 +25,28 @@ fetchData()
 
 const menuItems = [
   {
-    img: '/src/assets/pasta.png',
+    img: '/assets/pasta.png', //per chatgpt, vite handles assets in public directory differently from those in src. Static assets in the public directory are directly available from root
     name: 'Pasta',
     description:
       'Indulge in our classic Spaghetti Carbonara, a timeless Italian favorite. Al dente spaghetti is perfectly tossed with a rich and creamy sauce made from farm-fresh eggs, grated Pecorino Romano cheese, and crispy pancetta. A touch of freshly ground black pepper and a sprinkle of parsley add the finishing touches to this comforting and flavorful dish.',
     price: 19.99
   },
   {
-    img: '/src/assets/pizza.png',
+    img: '/assets/pizza.png',
     name: 'Pizza',
     description:
       "Savor the simplicity and elegance of our Margherita Pizza, a celebration of classic Italian flavors. This delightful pizza features a thin, crispy crust topped with a rich tomato sauce made from sun-ripened tomatoes and fragrant basil. It’s layered with fresh mozzarella cheese that melts to perfection and is finished with a drizzle of extra virgin olive oil. Garnished with fresh basil leaves and a sprinkle of sea salt, our Margherita Pizza is a timeless favorite that's sure to please.",
     price: 17.99
   },
   {
-    img: '/src/assets/salad.png',
+    img: '/assets/salad.png',
     name: 'Salad',
     description:
       'Experience the vibrant flavors of our Mediterranean Garden Salad, a refreshing mix of crisp romaine lettuce, juicy cherry tomatoes, and sliced cucumbers. Kalamata olives and creamy feta cheese add a savory touch, while red onions and roasted red peppers provide a hint of sweetness. Dressed with a light, homemade lemon-herb vinaigrette, this salad is both invigorating and satisfying.',
     price: 12.99
   },
   {
-    img: '/src/assets/burger.png',
+    img: '/assets/burger.png',
     name: 'Burger',
     description:
       'Our Gourmet Classic Cheeseburger features a perfectly grilled, juicy beef patty seasoned to perfection. It’s topped with melted cheddar cheese, crisp lettuce, ripe tomato slices, and tangy pickled onion, offering a delightful blend of flavors and textures. A dollop of our special house sauce enhances the taste, all served on a toasted brioche bun.',
