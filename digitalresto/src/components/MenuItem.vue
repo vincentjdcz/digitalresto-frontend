@@ -14,11 +14,11 @@ console.log('image source: ' + imgsrc)
 
 <template>
   <div
-    class="xs:w-1/3 sm:w-1/2 xl:w-1/3 h-fit border bg-white rounded-2xl mx-6 my-2 pb-8"
+    class="xs:w-1/3 sm:w-1/2 xl:w-1/3 h-fit border bg-white rounded-2xl mx-6 my-2 pb-8 shadow-md"
   >
     <div class="w-full h-fit border-solid border-0 border-red-400">
       <img :src="imgsrc" class="rounded-t-2xl w-full" />
-      <p class="font-mono font-bold text-2xl mt-2 text-center">{{ name }}</p>
+      <p class="font-mono font-bold text-2xl pt-2 pb-2 text-center bg-lime-200">{{ name }}</p>
     </div>
 
     <div class="px-4 py-1 mt-0 w-full lg:h-[20vh] sm:h-fit md:h-fit xs:h-fit border-solid border-0 border-indigo-600">

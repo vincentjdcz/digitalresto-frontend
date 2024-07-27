@@ -106,7 +106,7 @@ const removeOrder = async (orderId) => {
   </header>
 
   <main>
-    <div class="bg-lime-100 min-h-screen h-fit w-screen flex justify-evenly flex-wrap py-4 px-16">
+    <div class="bg-lime-50 min-h-screen h-fit w-screen flex justify-evenly flex-wrap py-4 px-16">
       <template v-if="view === 'menu'" class="" v-for="item in menuItems">
         <MenuItem
           :img="item.img"

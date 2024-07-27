@@ -5,14 +5,14 @@ const gotoMenu = () => emit('gotoView', 'menu')
 </script>
 <template>
   <div
-    class="sticky z-50 top-0 h-16 flex justify-between items-center border-b-2 border-black bg-lime-100"
+    class="shadow-md sticky z-50 top-0 h-16 flex justify-between items-center bg-lime-200"
   >
     <h1 class="font-pacifico text-3xl">Gourmet Junction</h1>
     <div class="flex">
       <div class="mx-3">
-        <p @click="gotoMenu" class="text-xl hover:underline hover:cursor-pointer">Menu</p>
+        <p @click="gotoMenu" class="text-2xl hover:underline hover:cursor-pointer">Menu</p>
       </div>
-      <div @click="gotoOrders" class="mx-3"><p class="text-xl hover:underline hover:cursor-pointer">Orders</p></div>
+      <div @click="gotoOrders" class="mx-3"><p class="text-2xl hover:underline hover:cursor-pointer">Orders</p></div>
     </div>
   </div>
 </template>
